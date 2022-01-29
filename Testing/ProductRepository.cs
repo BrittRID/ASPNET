@@ -66,8 +66,6 @@ namespace Testing
             _conn.Execute("DELETE FROM Products WHERE ProductID = @id;",
                                        new { id = product.ProductID });
         }
-
-
-
+        
     }
 }
